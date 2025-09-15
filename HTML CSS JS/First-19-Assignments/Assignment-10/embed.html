@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Embedding External Content</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Embedding Content In HTML</h1>
-        <p>This Page Shows How To Embed Videos,Articles,and Maps Directly into HTML document</p>
-    </div>
+  <h1>Embedding Content in HTML</h1>
+  <p>
+    This page shows how to embed videos, articles, and maps directly into an HTML document.
+  </p>
+  <nav>
+    <a href="#youtube">YouTube</a>
+    <a href="#wikipedia">Wikipedia</a>
+    <a href="#maps">Google Maps</a>
+  </nav>
+
+  <section id="youtube">
+    <h2>YouTube Video</h2>
+    <p>Here is a coding tutorial</p>
+    <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/UB1O30fR-EE"
+      title="HTML Tutorial for Beginners"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    <p>Description: This video explains HTML basics.</p>
+  </section>
+
+  <section id="wikipedia">
+    <h2>Wikipedia Article</h2>
+    <p>Here is a Wikipedia article about Computer Science:</p>
+    <iframe width="560" height="315"
+      src="https://en.wikipedia.org/wiki/Computer_science"
+      title="Wikipedia: Computer Science"></iframe>
+    <p>Description: This iframe displays the Computer Science article.</p>
+  </section>
+
+  <section id="maps">
+    <h2>Google Maps Location</h2>
+    <p>Here is the location of CodingGita Campus:</p>
+    <iframe width="560" height="315"
+      src="https://www.google.com/maps?q=CodingGita+Ahmedabad&output=embed"
+      title="CodingGita Campus, Ahmedabad"></iframe>
+    <p>Description: This is where CodingGita students learn modern MERN stack development.</p>
+  </section>
+
+  <p>
+    <a href="#top">Back to Top</a>
+  </p>
 </body>
 </html>
