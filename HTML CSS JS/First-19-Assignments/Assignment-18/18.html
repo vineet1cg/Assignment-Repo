@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My Media Library</title>
+  </head>
+  <body>
+    <h1 id="top">Media Library Collection</h1>
+    <p>
+      This page contains my favorite images, songs, videos, and online embeds.
+    </p>
+
+    <nav>
+      <a href="#images">Images</a>
+      <a href="#audio">Audio</a>
+      <a href="#video">Video</a>
+      <a href="#embeds">Embeds</a>
+    </nav>
+
+    <section id="images">
+      <h2>Image Gallery</h2>
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dyclllyqr/image/upload/v1758004175/Sunrise-At-Taj-Mahal-Agra_nqcqo5.webp"
+          alt="Taj Mahal at sunrise"
+          title="Taj Mahal at sunrise"
+          width="300"
+          height="200"
+        />
+        <figcaption>Taj Mahal at sunrise.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dyclllyqr/image/upload/v1758004174/mountain-quests-kanchenjunga_oyzhcy.webp"
+          alt="Himalayas Mountain View"
+          title="Himalayas Mountain View"
+          width="300"
+          height="200"
+        />
+        <figcaption>Beautiful Himalayas mountain range.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dyclllyqr/image/upload/v1758004174/images_yfhbn2.jpg"
+          alt="Night Cityscape"
+          title="Night Cityscape"
+          width="300"
+          height="200"
+        />
+        <figcaption>City lights at night.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dyclllyqr/image/upload/v1758004174/cliffs-caves-desert-full-dry-grass-cloudy-sky-daytime_181624-27961_pbsibw.avif"
+          alt="Desert Landscape"
+          title="Desert Landscape"
+          width="300"
+          height="200"
+        />
+        <figcaption>Wide desert view.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dyclllyqr/image/upload/v1758004186/photo-1716476801899-09319ecc3cf2_uijjah.jpg"
+          alt="Forest Path"
+          title="Forest Path"
+          width="300"
+          height="200"
+        />
+        <figcaption>Path through the green forest.</figcaption>
+      </figure>
+      <figure>
+        <img
+          src="https://res.cloudinary.com/dyclllyqr/image/upload/v1758004174/images_1_f3vdiw.jpg"
+          alt="Historical Monument"
+          title="Historical Monument"
+          width="300"
+          height="200"
+        />
+        <figcaption>Famous historical monument.</figcaption>
+      </figure>
+    </section>
+
+    <section id="audio">
+      <h2>Audio Library</h2>
+      <p>Favorite Song 1</p>
+      <audio src="https://res.cloudinary.com/dyclllyqr/video/upload/v1758004194/Neizvesten_-_night_changes_cover__mp3.pm_h4xxdi.mp3" controls autoplay></audio>
+      <p>This track plays automatically when the page loads.</p>
+      <p>Favorite Song 2</p>
+      <audio src="https://res.cloudinary.com/dyclllyqr/video/upload/v1758004194/Neizvesten_-_night_changes_cover__mp3.pm_h4xxdi.mp3" controls loop></audio>
+      <p>This track is set to loop continuously.</p>
+      <p>Favorite Song 3</p>
+      <audio src="https://res.cloudinary.com/dyclllyqr/video/upload/v1758004194/Neizvesten_-_night_changes_cover__mp3.pm_h4xxdi.mp3" controls></audio>
+      <p>This is a regular audio track with controls only.</p>
+    </section>
+
+    <section id="video">
+      <h2>Video Library</h2>
+      <figure>
+        <video
+          src="video1.mp4"
+          width="400"
+          height="225"
+          controls
+          poster="https://res.cloudinary.com/dyclllyqr/image/upload/v1758001543/cld-sample-2.jpg"
+        ></video>
+        <figcaption>My coding session demo.</figcaption>
+      </figure>
+      <figure>
+        <video
+          src="video2.mp4"
+          width="400"
+          height="225"
+          controls
+          poster="https://res.cloudinary.com/dyclllyqr/image/upload/v1758001542/samples/canvas.jpg"
+        >
+          <track
+            kind="subtitles"
+            src="captions_en.vtt"
+            srclang="en"
+            label="English"
+          />
+        </video>
+        <figcaption>Explainer with English subtitles.</figcaption>
+      </figure>
+    </section>
+
+    <section id="embeds">
+      <h2>External Media Embeds</h2>
+      <p>YouTube Video:</p>
+      <iframe
+        width="400"
+        height="225"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="Favorite YouTube Video"
+        allowfullscreen
+      ></iframe>
+      <p>Google Map:</p>
+      <iframe
+        src="https://www.google.com/maps?q=CodingGita+Campus&output=embed"
+        width="400"
+        height="225"
+        title="CodingGita Campus"
+      ></iframe>
+      <p>Wikipedia Article Snippet:</p>
+      <iframe
+        src="https://en.wikipedia.org/wiki/HTML"
+        width="400"
+        height="225"
+        title="HTML Wikipedia Article"
+      ></iframe>
+    </section>
+
+    <footer>
+      <a href="#top">Back to Top</a>
+    </footer>
+  </body>
+</html>
