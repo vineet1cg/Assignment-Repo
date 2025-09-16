@@ -1,0 +1,158 @@
+div{
+    font-family: 'Segoe UI', 'Verdana', 'Arial', sans-serif;
+    background: #f8f9fa;
+    color: #222;
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 1.7em;
+    margin-bottom: 0.6em;
+    color: #24304a;
+}
+
+h1 {
+    font-size: 2.1em;
+    margin: 24px 0 10px 0;
+}
+
+h2 {
+    font-size: 1.3em;
+    border-bottom: 1px solid #a2a9b1;
+    padding-bottom: 2px;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+nav {
+    background: #e9ecef;
+    border: 1px solid #a2a9b1;
+    padding: 12px 24px;
+    margin: 24px 0;
+    border-radius: 6px;
+}
+
+nav ol,
+nav ul {
+    margin-left: 18px;
+    padding-left: 0;
+    list-style-type: decimal;
+}
+
+nav li {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #a2a9b1;
+    margin: 32px 0;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 24px 34px;
+    border-radius: 18px;
+    box-shadow: 0 2px 10px rgba(200,200,210,0.045);
+}
+
+ul, ol {
+    margin: 16px 0;
+    padding-left: 26px;
+}
+
+figure {
+    margin: 22px auto;
+    text-align: center;
+    max-width: 420px;
+}
+
+figcaption {
+    font-size: 0.95em;
+    color: #555;
+    margin: 9px 0 0 0;
+}
+
+table {
+    background: #fff;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 19px 0 23px 0;
+    font-size: 0.99em;
+}
+
+th, td {
+    border: 1px solid #a2a9b1;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background: #ededed;
+    color: #222;
+    font-weight: bold;
+}
+
+tfoot th {
+    background: #f6f6f6;
+    font-weight: bold;
+}
+
+sup {
+    font-size: 0.85em;
+    vertical-align: super;
+    background: none;
+    border: none;
+}
+
+section#References, footer section {
+    background: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 40px;
+    padding: 16px 0 12px 16px;
+    box-shadow: none;
+    border: none;
+}
+
+footer {
+    font-size: 0.97em;
+    color: #444;
+    margin-top: 36px;
+    border-top: 1px solid #d8dee2;
+    padding: 22px 0 0 0;
+    text-align: left;
+    background: #f8f9fa;
+}
+/* 
+@media (max-width: 600px) {
+    main {
+        padding: 12px 4vw;
+    }
+    nav {
+        padding: 8px 2vw;
+    }
+    table {
+        font-size: 0.95em;
+    }
+} */
