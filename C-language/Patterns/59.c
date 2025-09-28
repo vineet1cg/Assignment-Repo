@@ -1,33 +1,47 @@
 #include <stdio.h>
 
-int main() {
+int main()
+{
     int n = 5;
     int i, j;
-    
-    for (i = 1; i <= n; i++) {
-        for (j = 1; j <= n; j++) {
-            if ( (i == j) ||
-                 (i + j == n + 1) ) {
-                if(i <= (n+1)/2) {
-                    if(i == j) {
+
+    for (i = 1; i <= n; i++)
+    {
+        for (j = 1; j <= n; j++)
+        {
+            if ((i == j) ||
+                (i + j == n + 1))
+            {
+                if (i <= (n + 1) / 2)
+                {
+                    if (i == j)
+                    {
                         printf("%d", i);
-                    } else {
+                    }
+                    else
+                    {
                         printf("%d", n - j + 1);
                     }
-                } else {
-                    if(i == j) {
+                }
+                else
+                {
+                    if (i == j)
+                    {
                         printf("%d", n - i + 1);
-                    } else {
+                    }
+                    else
+                    {
                         printf("%d", j);
                     }
                 }
             }
-            else {
+            else
+            {
                 printf(" ");
             }
         }
         printf("\n");
     }
-    
+
     return 0;
 }

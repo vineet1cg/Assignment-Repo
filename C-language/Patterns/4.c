@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int n=4;
+    int n = 4;
     for (int i = 0; i < n; i++)
     {
         for (int i = 0; i < n; i++)
@@ -9,8 +9,7 @@ int main()
             printf("*");
         }
         printf("\n");
-        
     }
-    
+
     return 0;
 }
