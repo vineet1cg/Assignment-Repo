@@ -1,79 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ludo</title>
-  <link rel="stylesheet" href="ludo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ludo.css">
 </head>
+
 <body>
-  <div class="ludo-board">
-  <div class="ludo-row">
-    <div class="ludo-box red">
-      <div class="tokens">
-        <div class="token red"></div>
-        <div class="token red"></div>
-        <div class="token red"></div>
-        <div class="token red"></div>
-      </div>
-      <div class="path-col">
-        <div class="path-cell"></div>
-        <div class="path-cell"></div>
-        <div class="path-cell star">★</div>
-        <div class="path-cell"></div>
-        <div class="path-cell star">★</div>
-      </div>
-    </div>
-    <div class="ludo-box green">
-      <div class="tokens">
-        <div class="token green"></div>
-        <div class="token green"></div>
-        <div class="token green"></div>
-        <div class="token green"></div>
-      </div>
-      <div class="path-col">
-        <div class="path-cell star">★</div>
-        <div class="path-cell"></div>
-        <div class="path-cell"></div>
-        <div class="path-cell"></div>
-        <div class="path-cell star">★</div>
-      </div>
-    </div>
-  </div>
+    <div class="container">
+        <div class="ludo">
+            <div class="row1">
 
-  <div class="ludo-row">
-    <div class="ludo-box blue">
-      <div class="tokens">
-        <div class="token blue"></div>
-        <div class="token blue"></div>
-        <div class="token blue"></div>
-        <div class="token blue"></div>
-      </div>
-      <div class="path-col">
-        <div class="path-cell star">★</div>
-        <div class="path-cell"></div>
-        <div class="path-cell"></div>
-        <div class="path-cell star">★</div>
-        <div class="path-cell"></div>
-      </div>
-    </div>
-    <div class="ludo-box yellow">
-      <div class="tokens">
-        <div class="token yellow"></div>
-        <div class="token yellow"></div>
-        <div class="token yellow"></div>
-        <div class="token yellow"></div>
-      </div>
-      <div class="path-col">
-        <div class="path-cell"></div>
-        <div class="path-cell star">★</div>
-        <div class="path-cell"></div>
-        <div class="path-cell"></div>
-        <div class="path-cell star">★</div>
-      </div>
-    </div>
-  </div>
-</div>
+                <div class="subbox" id="red">
+                    <div class="inbox">
+                        <div class="cir" id="redc"></div>
+                        <div class="cir" id="redc"></div>
+                        <div class="cir" id="redc"></div>
+                        <div class="cir" id="redc"></div>
+                    </div>
+                </div>
+                <div class="minbox">
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini" id="greenb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="greenb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="greenb"></div>
+                    <div class="mini"></div>
+                </div>
+                <div class="subbox" id="green">
+                    <div class="inbox">
+                        <div class="cir" id="greenc"></div>
+                        <div class="cir" id="greenc"></div>
+                        <div class="cir" id="greenc"></div>
+                        <div class="cir" id="greenc"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row2">
 
+                <div class="hbox">
+                    <div class="hmini"></div>
+                    <div class="hmini" id="redb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"id="redb"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"id="redb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                </div>
+                <div class="cbox">
+                    <div class="triangle red"></div>
+                    <div class="triangle green"></div>
+                    <div class="triangle yellow"></div>
+                    <div class="triangle blue"></div>
+                </div>
+                <div class="hbox"><div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"  id="yellowb"> 
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini" id="yellowb"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini"></div>
+                    <div class="hmini" id="yellowb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="hmini"></div></div>
+            </div>
+
+            <div class="row1">
+                <div class="subbox" id="blue">
+                    <div class="inbox">
+                        <div class="cir" id="bluec"></div>
+                        <div class="cir" id="bluec"></div>
+                        <div class="cir" id="bluec"></div>
+                        <div class="cir" id="bluec"></div>
+                    </div>
+                </div>
+                <div class="minbox">
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini" id="blueb">
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="blueb"> 
+                        <h1>&#9733</h1>
+                    </div>
+                    <div class="mini" id="blueb"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div>
+                    <div class="mini"></div></div>
+                <div class="subbox" id="yellow">
+                    <div class="inbox" >
+                        <div class="cir" id="yellowc"></div>
+                        <div class="cir" id="yellowc"></div>
+                        <div class="cir" id="yellowc"></div>
+                        <div class="cir" id="yellowc"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box1"></div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
